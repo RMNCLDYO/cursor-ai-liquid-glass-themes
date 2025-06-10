@@ -88,7 +88,7 @@ Install [`illixion.vscode-vibrancy-continued`](https://marketplace.visualstudio.
 ### Windows
 - Add `--disable-gpu-compositing` to your Cursor shortcut target. Example:
   ```
-  "C:\\Users\\User\\AppData\\Local\\Programs\\Cursor\\Cursor.exe" --disable-gpu-compositing
+  "C:\Users\<your-username>\AppData\Local\Programs\cursor\Cursor.exe" --disable-gpu-compositing
   ```
 - In settings, check `Disable frameless window` if you have window interaction issues
 - If you see `[Unsupported]` in the title bar, try the [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums) extension
