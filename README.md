@@ -38,6 +38,7 @@
   - [macOS](#macos)
   - [Windows](#windows)
 - [Configuration](#configuration)
+- [Reference: VS Code Theme Colors](#reference-vs-code-theme-colors)
 - [Contributing](#contributing)
 - [License](#license)
 - [Disclaimer](#disclaimer)
@@ -103,6 +104,12 @@ Key settings in `settings.json`:
 - `vscode_vibrancy.opacity`: 0 (max glass) to 1 (no glass); recommended: 0.25
 - `vscode_vibrancy.refreshInterval`: Lower is snappier, higher is less CPU; default: 100ms
 - Color overrides for the glass look (adjust as needed)
+
+## Reference: VS Code Theme Colors
+
+For a comprehensive list of all color options that can be customized in VS Code (and thus in Cursor), see the official [VS Code Theme Color Reference](https://code.visualstudio.com/api/references/theme-color).
+
+This resource is invaluable for anyone looking to extend or build on top of the current theme settings. It allows you to see every possible color key you can override, making it easier to customize or create new themes based on this repository.
 
 ## Troubleshooting
 
