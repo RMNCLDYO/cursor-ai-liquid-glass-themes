@@ -18,6 +18,12 @@
   </div>
 </div>
 
+## Important: Select the "Cursor Dark Midnight" Theme First
+
+Before applying the settings in this repository, make sure you have selected the **Cursor Dark Midnight** theme in Cursor. The provided settings are designed specifically for this theme. If you use a different theme, the appearance may not be as intended.
+
+*Support for additional themes is planned for the future!*
+
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
@@ -71,12 +77,12 @@ Install [`illixion.vscode-vibrancy-continued`](https://marketplace.visualstudio.
 ### macOS
 - Should work out of the box. If you encounter permission errors, try:
   ```sh
-  sudo chown -R $(whoami):staff "/Applications/Visual Studio Code.app/"
-  sudo chmod -R 755 "/Applications/Visual Studio Code.app/"
+  sudo chown -R $(whoami):staff "/Applications/Cursor.app/"
+  sudo chmod -R 755 "/Applications/Cursor.app/"
   ```
 - If you see `EROFS: read-only file system`, move Cursor in and out of `/Applications` or run:
   ```sh
-  sudo xattr -dr com.apple.quarantine "/Applications/Visual Studio Code.app"
+  sudo xattr -dr com.apple.quarantine "/Applications/Cursor.app"
   ```
 
 ### Windows
